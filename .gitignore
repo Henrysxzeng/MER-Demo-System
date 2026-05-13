@@ -3,8 +3,7 @@ MER_Demo/bin/
 MER_Demo/obj/
 *.user
 
-# Large data files
-*.pth
+# Large data files（权重通过 Git LFS 管理，不在此忽略）
 *.pt
 *.avi
 *.mp4
