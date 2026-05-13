@@ -172,16 +172,13 @@ MER_Demo_System/
 
 ### 权重文件（`.pth`）
 
-演示用权重文件（单文件 458MB）可从 Release 页面下载：
+演示用权重文件（458MB）通过 **Git LFS** 存储，clone 时**不会自动下载**。需要时单独拉取：
 
-👉 **[Releases - 下载 demo_weight.pth](https://github.com/Henrysxzeng/MER-Demo-System/releases/latest)**
-
-下载后新建一个文件夹，把 `demo_weight.pth` 放进去，点击「🤖 加载模型」时选择该文件夹即可。
-
+```bash
+git lfs pull
 ```
-任意路径\weights\
-    demo_weight.pth   ← 放这里
-```
+
+拉取后权重位于 `weights/demo_weight.pth`，点击「🤖 加载模型」选择 `weights/` 文件夹即可。
 
 ### 预计算结果（`predictions.json`）
 
