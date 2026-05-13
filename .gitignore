@@ -1,0 +1,29 @@
+# Build outputs
+MER_Demo/bin/
+MER_Demo/obj/
+*.user
+
+# Large data files
+*.pth
+*.pt
+datasets/
+*.avi
+*.mp4
+*.mov
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VS files
+.vs/
+*.suo
+*.db
+UpgradeLog.htm
+
+# Claude 内部配置
+.claude/
+
+# 报告生成脚本（非核心代码）
+生成报告.py
+生成架构图.py
