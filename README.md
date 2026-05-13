@@ -172,12 +172,15 @@ MER_Demo_System/
 
 ### 权重文件（`.pth`）
 
-从训练脚本（`Hybrid-HC-MER/main_Hybrid_HC.py`）训练生成，或联系作者获取。
+演示用权重文件（单文件 458MB）可从 Release 页面下载：
 
-放置位置示例：
+👉 **[Releases - 下载 demo_weight.pth](https://github.com/Henrysxzeng/MER-Demo-System/releases/latest)**
+
+下载后新建一个文件夹，把 `demo_weight.pth` 放进去，点击「🤖 加载模型」时选择该文件夹即可。
+
 ```
-F:\research\Hybrid-HC-MER\weights_Hybrid_HC_combined_v2_Seed_2026\
-    sub01.pth  sub02.pth  ...  s01.pth  s02.pth  ...
+任意路径\weights\
+    demo_weight.pth   ← 放这里
 ```
 
 ### 预计算结果（`predictions.json`）
