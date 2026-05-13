@@ -6,7 +6,6 @@ MER_Demo/obj/
 # Large data files
 *.pth
 *.pt
-datasets/
 *.avi
 *.mp4
 *.mov
